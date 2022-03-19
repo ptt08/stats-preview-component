@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main class="content">
+      <div class="card">
+        <div class="card-img">
+          <img
+            srcset="
+              images/image-header-desktop.jpg 1440w,
+              images/image-header-mobile.jpg   375w
+            "
+            sizes="(max-width: 1120px) 375px,
+                    (min-width: 375px) 1440px"
+            src="images/image-header-desktop.jpg"
+            alt="Card image"
+          />
+        </div>
+        <div class="card-text">
+          <div class="card-header">
+            <header>
+              <h1>
+                Get <span class="highlight">insights</span> that help your
+                business grow.
+              </h1>
+            </header>
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="card-extra">
+            <div>
+              <span>10k+</span>
+              <p>companies</p>
+            </div>
+            <div>
+              <span>314</span>
+              <p>templates</p>
+            </div>
+            <div>
+              <span>12M+</span>
+              <p>queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">ptt</a>.
+      </div>
+    </footer>
+  </body>
+</html>
